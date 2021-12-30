@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-image: url(img/back.png);
+    background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 10%;
+    text-decoration: none;
+  }
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_links li a:hover { color: #3786c7;}
+  .logo { cursor: pointer; margin-right: auto; justify-content: left; }
+  
+  .nav_links{list-style: none; }
+  .nav_links li { display: inline-block; padding: 0px 20px; text-decoration: none;}
+  button { padding: 9px 25px; background-color: rgba(59, 153, 207, 0.781) ;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    
+  }
+  button:hover {
+    background-color: rgba(28, 112, 160, 0.425) ;
+  }
+  li,a, button {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 500;font-size: 16px; color: #ecf0f1; text-decoration: none; z-index: 1;}
+  
